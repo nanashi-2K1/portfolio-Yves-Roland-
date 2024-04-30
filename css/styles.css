@@ -10937,6 +10937,7 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  transition: transform 0.3s ease-in-out;
 
   
 }
@@ -10945,6 +10946,7 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
+  transform: scale(1.1); /* Augmente la taille de l'icône au survol */
 }
 
 .dev-icons {
