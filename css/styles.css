@@ -10979,3 +10979,23 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.company-info {
+  display: flex;
+  align-items: center; /* Alignement vertical */
+}
+
+.company-logo {
+  width: 45px; /* Ajustez la taille du logo selon vos besoins */
+  height: 45px; /* Ajustez la taille du logo selon vos besoins */
+  background-image: url('SOLIBRA.png'); /* Chemin vers le fichier image du logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px; /* Espacement entre le logo et le texte */
+  margin-top: -20px;
+  
+}
+
+.subheading {
+  margin-bottom: 0; /* Pour éliminer l'espacement sous le nom de l'entreprise */
+}
