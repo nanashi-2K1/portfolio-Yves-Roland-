@@ -10999,3 +10999,19 @@ section.resume-section .resume-section-content {
 .subheading {
   margin-bottom: 0; /* Pour éliminer l'espacement sous le nom de l'entreprise */
 }
+
+.company2-info {
+  display: flex;
+  align-items: center; /* Alignement vertical */
+}
+
+.company2-logo {
+  width: 35px; /* Ajustez la taille du logo selon vos besoins */
+  height: 35px; /* Ajustez la taille du logo selon vos besoins */
+  background-image: url('Orange.png'); /* Chemin vers le fichier image du logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px; /* Espacement entre le logo et le texte */
+  margin-top: -30px;
+  
+}
